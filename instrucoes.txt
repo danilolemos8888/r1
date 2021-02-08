@@ -1,4 +1,9 @@
 git clone https://github.com/danilolemos8888/r1.git
 
+Avaliação: Automação WebService/API
+Criar um projeto de automação com as ferramentas citadas (Cucumber + Ruby + HTTParty).
+Cenários:
 1.	Enviar um GET para a API https://gorest.co.in/public-api/users pesquisando por "Naik" no parâmetro "name" da querystring (users?name="Naik"). Validar o statusCode (200 OK) e validar que no array "data", todos os elementos contenham Naik no campo name.
-2.	Enviar um GET para a API https://gorest.co.in/ublic-api/users, armazenar o ID do primeiro user retornado e enviar um novo GET para o endpoint https://gorest.co.in/public-api/users/<id>/posts, onde "<id>" é o ID do user armazenado na primeira requisição. Validar todos os posts retornados para esse user e validar o statusCode (200 OK).
+2.	Enviar um GET para a API https://gorest.co.in/public-api/users, armazenar o ID do primeiro user retornado e enviar um novo GET para o endpoint https://gorest.co.in/public-api/users/<id>/posts, onde "<id>" é o ID do user armazenado na primeira requisição. Validar todos os posts retornados para esse user e validar o statusCode (200 OK).
+Diferencial: Aplicação de estrutura em "PageObject".
+Desejável: Criar os mesmos cenários em uma collection do Postman.
